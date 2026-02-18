@@ -1,0 +1,23 @@
+[general]
+name=Living SOC Analyzer
+qgisMinimumVersion=3.22
+description=생활SOC 접근성·공급적합성 자동화 분석 (12단계 파이프라인)
+version=3.0.0
+author=Living SOC Research Team
+email=living.soc@example.com
+about=농산어촌 생활SOC 시설의 공간적 접근성과 공급적합성을 과학적으로 분석합니다.
+    ■ 12단계 완전자동화 파이프라인 (원클릭 실행)
+    ■ API 자동 데이터 구득 (공공데이터포털, 카카오, 브이월드 등 9종)
+    ■ E2SFCA 접근성 + PPR + 유인력 + 혼잡도 + 서비스 사각지대
+    ■ 형평성 분석 (Gini, T-검정) + K-means 지역유형화
+    ■ 통계검증 (Moran's I, Bootstrap CI, 민감도분석)
+    ■ 자동 보고서 (Excel 9시트 + HTML 대시보드 + JSON)
+    ■ QGIS 레이어 자동 등록 + GeoPackage 내보내기
+tracker=https://github.com/living-soc/qgis-plugin/issues
+repository=https://github.com/living-soc/qgis-plugin
+tags=accessibility,2sfca,living soc,spatial analysis,korea,healthcare,welfare
+homepage=https://github.com/living-soc/qgis-plugin
+category=Analysis
+icon=icons/icon.png
+experimental=False
+deprecated=False
